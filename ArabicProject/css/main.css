@@ -1,0 +1,257 @@
+@import url(../css/bootstrap.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css);
+@import url(../css/fonts.css);
+:root{
+    --bodyColor: ##4A4A4A;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+img{
+    width: 100%;
+}
+body {
+    line-height: 24px;
+    font-size: 14px;
+    font-family: Roboto-Medium;
+    font-weight: 500;
+    color: var(--bodyColor);
+    font-weight: bold;
+}
+/* head */
+.head .navbar {
+    text-align: right;
+}
+.head .navbar .nav-item{
+width: 100px;
+}
+.head .collapse{
+    text-align: center;
+    margin-right: 250px;
+}
+.head .d-flex{
+    margin-right:250px;
+}
+.head .navbar-social a{
+    color: black;
+    width: 100%;
+height: 100%;
+}
+.head .btn{
+    margin-right: 20px;
+    color: #fff;
+    background-color: #FB0066;
+    padding: 0 20px;
+}
+.head .navbar-social{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+/* end head */
+/* home */
+.home .col-lg-6 h1 {
+text-align: right;
+color: #4A4A4A;
+font-size: 52px;
+font-weight: bold;
+}
+.home .col-lg-6 {
+    margin-top: 50px;
+    text-align: right;
+}
+.home .col-lg-6 .btn{
+    background-color: #FB0066;
+    padding: 0 20px;
+    color: #fff;
+    margin-top: 20px;
+}
+/* end home */
+.country{
+    background-color: #F5F1FA;
+    margin-top: 80px;
+    padding:80px  0;
+    text-align: right;
+}
+.country .buttoms{
+    width: 285px;
+    background-color: #fff;
+    margin-right: 720px;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 10px 20px;
+}
+
+.country .row h3{
+    text-align: right;
+    color:#4A4A4A;
+    font-weight: bold ;
+}
+.country .buttoms .bbt{
+    margin-right: 10px;
+    border: none;
+    background-color: #fff;
+
+}
+.country .buttoms .tts{
+    background-color: #FF9133;
+    color: #fff;
+    border: #FF9133 ;
+    border-radius: 2px;
+    padding: 0 10px;
+}
+
+.country .row .col-lg-3{
+    margin-top: 50px;
+   text-align: right;
+   margin-bottom: -40px !important;
+}
+.country .row .col-lg-3 .card-body{
+    text-align: right;
+    padding: 7px !important;
+}
+.country .row .col-lg-3 .card-body .card-title{
+    margin-right: -21px;
+}
+.country .row .card{
+    margin-bottom: 0rem!important;
+
+}
+.country .row .btn{
+    margin-top: 80px;
+    margin-left: 450px;
+}
+.country .row .btn button{
+padding: 5px 20px 5px 60px ;
+color: #ffffff;
+background-color: #FB0066;
+border-radius: 12px;
+border-color: #FB0066;
+}
+/* end country */
+/* phone */
+.phone  .word{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: #4A4A4A;
+    font-weight: bold;
+    text-align: right;
+    padding: 0 50px;
+}
+.phone .row .col-lg-3{
+    padding: 0 50px;
+}
+.phone .row .col-lg-3 p{
+    text-align: center;
+    margin-top: 15px;
+}
+/* end phone */
+/* photo */
+.photo{
+    background-color: #F5F1FA;
+}
+.photo .word{
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+    font-weight: bold;
+    text-align: right;
+    padding: 0 50px;
+}
+.photo .col-lg-5{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 20px;
+    margin: 0 47px;
+    box-shadow: 0px 0px 20px #4C00A926;
+    border-radius: 10px;
+}
+.photo .img{
+    text-align: center;
+
+}
+.photo .img img{
+    width: 50%;
+}
+.photo .img h4{
+    font-size: 32px;
+    color: #4A4A4A;
+}
+.photo .img p{
+    font-size: 14px;
+    color: #707070;
+}
+.photo .row .text{
+    background-color: #F9F6FC;
+    border-radius: 10px;
+}
+.photo .row .star{
+    margin-right: 310px;
+    display: inline-block;
+    color: #FF9133;
+}
+.photo .row .text h4{
+    text-align: right;
+    margin-top: 5px;
+}
+
+.photo .row .text p{
+    text-align: right;
+    margin-top: 5px;
+}
+/* end photo */
+.onte .row{
+    background: transparent linear-gradient(90deg, #FF9133 0%, #4C00A9 100%) 0% 0% no-repeat padding-box;
+margin-top: 50px;
+padding-top: 70px;
+border-radius: 10px;
+margin-bottom: 80px;
+}
+.onte .row .col-lg-6{
+    padding-top: 50px;
+    text-align: right;
+    color: #fff;
+}
+.onte .row .col-lg-6 h6{
+    font-size: 42px;
+}
+.onte .row .col-lg-6 p{
+    color: #FEE9F1;
+    font-size: 14px;
+}
+.onte .row .col-lg-6 button{
+    border-radius: 10px;
+    border-color: #fff;
+}
+/* end onte */
+.endest{
+    background-color: #4C00A9;
+
+}
+.endest .row .col-lg-3 ul{
+    list-style: none;
+    margin-top: 50px;
+    text-align: right;
+    color: #fff;
+}
+.endest .row .col-lg-3 ul p{
+    font-size: 20px;
+
+}
+.endest .row .col-lg-3 .para{
+    font-size: 14px;
+    padding-left: 15px;
+    width: 200px;
+    margin-left:80px ;
+}
+.endest .row .col-lg-3 ul span{
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 100;
+}
+.endest .row .col-lg-3 ul img{
+    width: 40%;
+    margin-bottom: 30px;
+}
